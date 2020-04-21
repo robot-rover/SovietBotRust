@@ -1,0 +1,4 @@
+CREATE TABLE guilds (
+  id BIGINT PRIMARY KEY NOT NULL,
+  trigger TEXT NULLABLE
+)

@@ -1,0 +1,7 @@
+CREATE TABLE tags (
+    id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    guild_id BIGINT NOT NULL,
+    tag_name VARCHAR NOT NULL,
+    tag_content VARCHAR NOT NULL,
+    UNIQUE (guild_id, tag_name) ON CONFLICT REPLACE
+)

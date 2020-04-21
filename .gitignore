@@ -1,0 +1,4 @@
+/target
+.env
+*.db
+src/schema.rs

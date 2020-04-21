@@ -1,0 +1,10 @@
+[package]
+name = "sovietbot"
+version = "0.1.0"
+authors = ["Sam"]
+edition = "2018"
+
+[dependencies]
+serenity = "0.8"
+diesel = { version = "1.0.0", features = ["sqlite"] }
+dotenv = "0.9.0"
